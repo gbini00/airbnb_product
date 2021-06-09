@@ -15,18 +15,19 @@ spec:
       labels:
         app: affiliateproduct
     spec:
+      serviceAccount: efs-provisioner
       containers:
         - name: affiliateproduct
           image: 985702435631.dkr.ecr.ap-northeast-2.amazonaws.com/affiliateproduct:latest
           ports:
             - containerPort: 8080
-#          resources:
-#            requests:
-#              memory: "256Mi"
-#              cpu: "1000m"
-#            limits:
-#              memory: "512Mi"
-#              cpu: "2500m"
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "1000m"
+            limits:
+              memory: "512Mi"
+              cpu: "2500m"
 #          args:
 #            - /bin/sh
 #            - -c
