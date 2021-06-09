@@ -1,0 +1,15 @@
+airbnb\OrderCreateConfirmed.class
+airbnb\ProductDeleted.class
+airbnb\ProductOrdered.class
+airbnb\OrderCancelConfirmed.class
+airbnb\ProductModified.class
+airbnb\config\kafka\KafkaProcessor.class
+airbnb\ProductRegistered.class
+airbnb\AffiliateproductRepository.class
+airbnb\AbstractEvent.class
+airbnb\ProductCancelled.class
+airbnb\AffiliateproductApplication.class
+airbnb\AffiliateproductController.class
+airbnb\PolicyHandler.class
+airbnb\Affiliateproduct.class
+airbnb\AbstractEvent$1.class

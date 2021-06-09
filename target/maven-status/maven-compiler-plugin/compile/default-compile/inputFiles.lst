@@ -1,0 +1,14 @@
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\AffiliateproductRepository.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\OrderCancelConfirmed.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\AffiliateproductApplication.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\PolicyHandler.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\ProductDeleted.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\AffiliateproductController.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\config\kafka\KafkaProcessor.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\Affiliateproduct.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\OrderCreateConfirmed.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\ProductRegistered.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\ProductOrdered.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\ProductModified.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\AbstractEvent.java
+C:\my_project\airbnb_affiliateproduct\src\main\java\airbnb\ProductCancelled.java
