@@ -32,32 +32,32 @@ spec:
 #            - /bin/sh
 #            - -c
 #            - touch /tmp/healthy; sleep 90; rm -rf /tmp/healthy; sleep 600
-#          readinessProbe:
-#            httpGet:
-#              path: '/actuator/health'
-#              port: 8080
+          readinessProbe:
+            httpGet:
+              path: '/actuator/health'
+              port: 8080
 #            exec:
 #              command:
 #              - cat
 #              - /tmp/healthy
-#            initialDelaySeconds: 25
-#            timeoutSeconds: 2
-#            periodSeconds: 5
-#            failureThreshold: 5
-#            successThreshold: 1
-#          livenessProbe:
+            initialDelaySeconds: 25
+            timeoutSeconds: 2
+            periodSeconds: 5
+            failureThreshold: 5
+            successThreshold: 1
+          livenessProbe:
 #            httpGet:
 #              path: '/actuator/health'
 #              port: 8080
-#            exec:
-#              command:
-#              - cat
-#              - /tmp/healthy
-#            initialDelaySeconds: 60
-#            timeoutSeconds: 2
-#            periodSeconds: 5
-#            failureThreshold: 5
-#            successThreshold: 1
+            exec:
+              command:
+              - cat
+              - /tmp/healthy
+            initialDelaySeconds: 60
+            timeoutSeconds: 2
+            periodSeconds: 5
+            failureThreshold: 5
+            successThreshold: 1
           env:
             - name: MAX_RESERVATION_PER_PERSION
               valueFrom:
